@@ -1,0 +1,159 @@
+.row {
+  width: 1140px; }
+
+.header {
+  background-color: #e5eef0;
+  height: 50px; }
+  .header div {
+    height: 50px;
+    color: #93a1a7;
+    line-height: 40px;
+    font-size: 13px; }
+    .header div:nth-child(2) {
+      border-right: 1px solid #d8e3e6; }
+    .header div:hover {
+      color: #29c2e1; }
+
+.menu {
+  padding: 21px 0 21px 0;
+  background-color: yellow; }
+  .menu ul {
+    margin-top: 5px;
+    float: right; }
+    .menu ul li {
+      font-family: "Times New Roman";
+      font-size: 14.5px;
+      margin-left: 35px; }
+      .menu ul li a {
+        color: #93a1a7; }
+      .menu ul li .bold {
+        color: #23282f; }
+
+.blue a {
+  padding: 15px 28px 15px 28px;
+  color: #ffffff !important;
+  border-radius: 30px;
+  text-align: center;
+  background-color: #29c2e1; }
+
+.textfamtran, #contact p, #contact span, .main p, .main p span, .main .map p, .main .ikons .ikons-text, .clients .hapcl .happy, .clients .hapcl .client {
+  font-family: "Times New Roman";
+  text-transform: uppercase; }
+
+#contact {
+  /*width:1970px;//obrazuetsya scroll*/
+  height: 600px;
+  /*background-color:$grayBackground;*/
+  /*background-image: url("../images/01.jpg");*/
+  /*background-size:cover;*/ }
+  #contact p {
+    color: #ffffff;
+    margin-top: 20%;
+    margin-left: 25%;
+    font-size: 48px;
+    line-height: 20px;
+    display: inline-block; }
+  #contact span {
+    color: #ffffff;
+    font-size: 14px;
+    display: inline-block; }
+
+.main p {
+  color: #23282f;
+  font-size: 30px;
+  margin-top: 85px;
+  line-height: 20px; }
+  .main p span {
+    font-size: 18px; }
+.main .map {
+  width: 1140px;
+  height: 417px;
+  background-color: #8d8d8d;
+  text-align: center; }
+  .main .map i {
+    color: #f7941d;
+    margin-left: 20px; }
+  .main .map p {
+    font-size: 30px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-top: 170px; }
+.main .ikons {
+  height: 303px; }
+  .main .ikons .sircle {
+    width: 62px;
+    height: 62px;
+    border: 2px solid #29c2e1;
+    border-radius: 50%;
+    margin-top: 75px;
+    margin-left: 145px;
+    text-align: center;
+    padding: 5px; }
+  .main .ikons .ikons-text {
+    font-size: 16px;
+    margin-top: 20px; }
+
+.back1 {
+  background-image: url("../images/01.jpg");
+  background-size: cover; }
+
+.back2 {
+  background-image: url("../images/02.jpg");
+  background-size: cover; }
+
+.back3 {
+  background-image: url("../images/03.jpg");
+  background-size: cover; }
+
+.back4 {
+  background-image: url("../images/04.jpg");
+  background-size: cover; }
+
+.back5 {
+  background-image: url("../images/05.jpg");
+  background-size: cover; }
+
+.clients {
+  background-color: #f7941d;
+  height: 617px; }
+  .clients .hapcl {
+    margin-top: 90px;
+    text-align: center; }
+    .clients .hapcl .happy {
+      font-size: 13px;
+      color: #ffffff;
+      background-color: #23282f;
+      width: 70px;
+      margin-left: 40px; }
+    .clients .hapcl .client {
+      font-size: 25px;
+      color: #ffffff;
+      line-height: 15px; }
+  .clients .ikons {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto; }
+    .clients .ikons i {
+      margin-top: 15px;
+      color: #ffffff; }
+  .clients .clientCom {
+    text-transform: initial; }
+    .clients .clientCom p {
+      margin-top: 50px;
+      color: #23282f;
+      font-size: 15px;
+      text-align: center;
+      font-style: italic;
+      font-family: "Times New Roman"; }
+  .clients .autoName {
+    margin-top: 30px; }
+    .clients .autoName .by, .clients .autoName .nameAutor {
+      text-align: center;
+      font-size: 14px;
+      font-weight: bold;
+      font-family: "Times New Roman"; }
+
+/*# sourceMappingURL=style2t.css.map */

@@ -1,0 +1,270 @@
+$headColor:#e5eef0;
+$grayTextCol:#93a1a7;
+$buttonColor:#29c2e1;
+$grayBackground:#8d8d8d;
+$whiteText:#ffffff;
+$orangeColor:#f7941d;
+$darkcolorText:#23282f;
+$inputsColor:#23282f;
+$fontFam:"Times New Roman";
+
+//header part
+
+
+.container-fluid{
+
+}
+.row{
+	width:1140px;
+}
+
+.header{
+	background-color:$headColor;
+	height:50px;
+		div{
+			height: 50px;
+			color:$grayTextCol;
+			line-height:40px;
+			font-size:13px;
+			//padding:0px;
+			&:nth-child(2){
+				border-right: 1px solid #d8e3e6;
+
+			}
+
+			&:hover{
+				color:$buttonColor;
+			}
+		}
+}
+
+.menu{
+	padding:21px 0 21px 0;
+	background-color:yellow;
+
+	ul{
+		margin-top:5px;
+		float:right;
+		li{	
+
+			font-family:$fontFam; 
+			font-size:14.5px;
+			margin-left:35px;
+			a{
+			color:$grayTextCol;
+
+			}
+			.bold{
+
+				color:$darkcolorText;
+				}
+				
+		}
+	}
+	
+}
+		.blue a{
+				padding:15px 28px 15px 28px;
+				color:$whiteText !important;
+				border-radius:30px;
+				text-align: center;
+				background-color:$buttonColor;
+			}
+
+
+//contact us part
+.textfamtran{
+	font-family:$fontFam;
+	text-transform: uppercase;
+}
+
+#contact{
+	
+		/*width:1970px;//obrazuetsya scroll*/
+		height:600px;
+		/*background-color:$grayBackground;*/
+		/*background-image: url("../images/01.jpg");*/
+		/*background-size:cover;*/
+		
+	p{	
+		@extend.textfamtran;
+		color:$whiteText;
+		margin-top:20%;
+		margin-left:25%;
+		font-size: 48px;
+		line-height:20px;
+		display: inline-block;
+ 
+	} 
+	span{
+		@extend.textfamtran;
+		color:$whiteText;
+		font-size:14px;
+		display:inline-block;
+
+	}
+	
+} 
+
+//OUR LOCATION PART
+
+.main{
+	p{
+	 @extend.textfamtran;
+	 color:$darkcolorText;
+	 font-size:30px;
+	 margin-top:85px;
+	 line-height:20px;
+	 	span{
+	 	 @extend.textfamtran;
+	 	 font-size:18px;
+
+	 	}
+	}
+	.map{
+		
+		width:1140px;
+		height: 417px;
+		background-color:$grayBackground;
+		text-align:center;
+
+		i{
+			color:$orangeColor;
+			margin-left:20px;
+		}
+		p{	
+			@extend.textfamtran;
+			font-size:30px;
+			line-height:30px;
+			color:$whiteText;
+			margin-top: 170px;
+
+		}
+	}
+	.ikons{
+		height:303px;
+		
+		.sircle{
+			width:62px;
+			height:62px;
+			border:2px solid $buttonColor;
+			border-radius:50%;
+			//text-align:center;
+			margin-top: 75px;
+			margin-left:145px;
+			text-align: center;
+			padding:5px;
+		}
+		.ikons-text{
+			@extend.textfamtran;
+			font-size:16px;
+			margin-top: 20px;
+
+		}
+	}
+}
+
+//styles for background color.
+.back1{
+	background-image: url("../images/01.jpg");
+	background-size:cover;
+}
+
+.back2{
+	background-image: url("../images/02.jpg");
+	background-size:cover;
+}
+
+.back3{
+	background-image: url("../images/03.jpg");
+	background-size:cover;
+}
+
+.back4{
+	background-image: url("../images/04.jpg");
+	background-size:cover;
+}
+
+
+.back5{
+	background-image: url("../images/05.jpg");
+	background-size:cover;
+}
+
+
+//orange part.
+
+.clients{
+	background-color:$orangeColor;
+	height:617px;
+	.hapcl{
+		margin-top:90px;
+		text-align:center;
+		.happy{
+			@extend.textfamtran;
+			font-size:13px;
+			color: $whiteText;
+			background-color:$darkcolorText;
+			width:70px;
+			margin-left:40px;
+			
+
+		}
+		.client{
+			@extend.textfamtran;
+			font-size: 25px;
+			color:$whiteText;
+			line-height:15px;
+
+		}
+		
+	}
+	.ikons{
+			width:50px;
+			height:50px;
+			border:2px solid $whiteText;
+			border-radius:50%;
+			text-align:center;
+			margin: 0 auto;
+
+			i{
+				margin-top:15px;
+				color:$whiteText;
+
+			}
+
+		}
+
+.clientCom{
+	 text-transform:initial;
+	p{	
+		margin-top:50px;
+		color:$darkcolorText;
+		font-size:15px;
+		text-align:center;
+		font-style:italic;
+		font-family:$fontFam;
+
+
+	}
+
+}	
+.autoName{
+	margin-top:30px;
+	.by{
+		text-align:center;
+		font-size:14px;
+		font-weight:bold;
+		font-family:$fontFam;
+
+
+	}
+	.nameAutor{
+		@extend.by;
+	}
+
+}	
+
+		
+}
+
