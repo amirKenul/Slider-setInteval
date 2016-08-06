@@ -151,6 +151,7 @@
 	var litlArr=["we are waiting","and what about you?","local business"];
 	var latinSoz=["VER HIEMEM SEQUITUR, SEQUITUR POST TRISTE SERENUM ","VOLUNTI (VOLUNTARIO) NIHIL DIFFICILE ","VOX AUDITA LATET, LITTERA SCRIPTA MANET","VULGARE AMICI NOMEN, SED RARA EST FIDES"];
 
+	var autorNAme=["Mamed Qehramanov","Arif Musabeyov","Simurq Musavi","Valida Bakuvi","Nezrin Axmedova"];
 	//comment part(orange part)
 	/*document.getElementsByClassName("clientCom")[0].getElementsByTagName("p")[0].innerHTML=latinSoz[2];
 	var autorCom =getElementsByClassName("clientCom")[0].getElementsByTagName("p")[0];
@@ -211,16 +212,20 @@
 	}
 
 
+	// word deyishme 
 	document.getElementsByClassName("clientCom")[0].getElementsByTagName("p")[0].innerHTML=latinSoz[2];
 	var autorCom =document.getElementsByClassName("clientCom")[0].getElementsByTagName("p")[0];
 
-	document.getElementsByClassName("clientCom")[0].getElementsByTagName("i")[0].addEventListener("click",function(){
-		autoChange();
-	});
+	//autor name part
 
-	// deyishme funksiyasi;
+	document.getElementsByClassName("autoName")[0].getElementsByClassName("nameAutor")[0].innerHTML=autorNAme[0];
+	var namePeople=document.getElementsByClassName("autoName")[0].getElementsByClassName("nameAutor")[0];
 
-	var timerId = setInterval("autoChange()", 2000);
+	
+
+	// slider deyishme funksiyasi;
+
+	setInterval("autoChange()",5000);
 
 	count=0;
 	function autoChange() {
@@ -228,6 +233,7 @@
 		if(count==latinSoz.length){
 			count=0;
 		}
+		namePeople.innerHTML=autorNAme[count];
 		autorCom.innerHTML=latinSoz[count];
 
 	}
